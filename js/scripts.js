@@ -3,9 +3,9 @@ $(document).ready(function() {
     $("ul#user").prepend("<li>hello!</li>");
     $("ul#webpage").prepend("<li> why, hello there</li>");
 
-    $("ul#user").children("li").first().click(function)(){
+    $("ul#user").children("li").first().click(function(){
       alert("hi");
-    };
+    });
   });
 
   $("button#goodbye").click(function(){
